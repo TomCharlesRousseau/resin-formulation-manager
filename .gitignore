@@ -1,0 +1,46 @@
+# Directories
+exports/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.cache/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+venv/
+ENV/
+env/
+
+# Streamlit
+.streamlit/*
+!.streamlit/secrets.toml.example
+.streamlit_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Development/Testing
+default_permid_dev.txt
+
+# Per-machine local preferences
+.user_prefs.json
+
+# Temporary files
+*.tmp
+*.log
