@@ -132,10 +132,9 @@ def tab_connection():
     with st.expander("ℹ️ How do I get a Personal Access Token?"):
         st.markdown(
             "1. Open your openBIS instance and log in.\n"
-            "2. Click your **username** in the top-right corner.\n"
-            "3. Select **Personal Access Tokens**.\n"
-            "4. Click **Add Personal Access Token**, set a validity period "
-            "and a name, then copy the generated token.\n"
+            "2. Click the **TOOL** button in the top toolbar.\n"
+            "3. Select **User Profile**.\n"
+            "4. Copy the Personal Access Token: **openBIS session token**\n"
             "5. Paste it into the field above."
         )
         if url.strip():
